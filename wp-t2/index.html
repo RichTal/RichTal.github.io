@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+        <title>MR2 iBanking</title>
+
+         <!-- Bootstrap CSS CDN -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <!-- Our Custom CSS -->
+        <link rel="stylesheet" href="css/style2.css">
+        <link href="css/main.css" type="text/css" rel="stylesheet">
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+    </head>
+    <body>
+
+        <div class="wrapper">
+
+            <!-- Sidebar Holder -->
+            <nav id="sidebar" class="left-section">
+
+                <ul class="list-unstyled components">
+
+                    <li class="active">
+                        <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false"><i class="fa fa-home" aria-hidden="true"></i>Home</a>
+                        <ul class="collapse list-unstyled" id="homeSubmenu">
+                            <li><a href="#">Home 1</a></li>
+                            <li><a href="#">Home 2</a></li>
+                            <li><a href="#">Home 3</a></li>
+                        </ul>
+                    </li>
+                    
+                    <li>
+                        <a href="#"><i class="fa fa-credit-card-alt" aria-hidden="true"></i>Cards</a>
+                    </li>
+                    
+                    <li>
+                        <a href="#"><i class="fa fa-envelope-open" aria-hidden="true"></i>Correspondance</a>
+                    </li>
+                    
+                    <li>
+                        <a href="#"><i class="fa fa-dropbox" aria-hidden="true"></i>Products</a>
+                    </li>
+                    
+                    <li>
+                        <a href="#"><i class="fa fa-users" aria-hidden="true"></i>Delegation</a>
+                    </li>
+                    
+                    <li>
+                        <a href="#"><i class="fa fa-cog" aria-hidden="true"></i>Settings</a>
+                    </li>
+                    
+                    <li>
+                        <a href="#"><i class="fa fa-external-link" aria-hidden="true"></i>Requests</a>
+                    </li>
+                    
+                    <li class="personal-banker-tab">
+                        <a href="#">Personal Banker</a>
+                    </li>
+                </ul>
+
+                 <img src="img/esb-logo.png" class="esb-logo">
+                    <span>Pbanker</span><br>
+                
+                <ul>
+                <li style="border:none !important;">
+                    
+                    <a href="#contact" data-toggle="collapse" aria-expanded="false">Contact Information</a>
+                
+                <ul class="collapse list-unstyled" id="contact">
+                            <li style="border:none !important; line-height:20px;"><a href="#">Contact Information Goes Here </a></li>
+
+                        </ul>
+                    
+                </li>
+                </ul>
+                
+
+            </nav>
+
+            <!-- Page Content Holder -->
+            <div id="content">
+                <header>
+                <div class="container-fluid">
+                    <div class="row">
+                <div class="col-lg-2 col-md-3" style="background-color:#1d61a7;">
+                    <div class=" header-logo">
+                    <img src="img/cr2-logo.png" alt="logo">
+                    </div>
+                </div>
+                
+                <div class="col-lg-10 col-md-9" style="background-color:#2367ae;">
+                    
+                        <div class="navbar-header">
+                            <button type="button" id="sidebarCollapse" class="collapse-btn">
+                                <i class="glyphicon glyphicon-align-left"></i>
+                                
+                            </button>
+                        </div>
+                    
+                    
+                    <ul class="hidden-xs visible-sm visible-md visible-lg">
+                        <a href="#"><li style="position:relative;"><img src="img/email-icon-header.png" >
+                            <div class="email-count">
+                                <p>9</p></div>
+                            </li></a>
+                            <a href="#"><li><img src="img/user-icon.png" style="margin-right:10px;"><span>Simon Murray</span></li></a>
+                            <a href="#"><li><img src="img/header-exit-icon.png"></li></a>
+                    </ul>
+                    
+                    
+                    <div class="visible-xs hidden-sm hidden-md hidden-lg menu-icon">
+                    <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                  <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="headingOne">
+                      <h4 class="panel-title">
+                        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                          <i class="fa fa-bars" aria-hidden="true"></i>
+
+                        </a>
+                      </h4>
+                    </div>
+                    <div id="collapseOne" class="panel-collapse collapse out" role="tabpanel" aria-labelledby="headingOne">
+                      <div class="panel-body">
+
+                          <nav>
+                            <ul>
+
+                        <a href="#"><li style="position:relative;"><img src="img/email-icon-header.png" >
+                            <div class="email-count">
+                                <p>9</p></div>
+                </li><span>Emails</span></a><br>
+                        <a href="#"><li><img src="img/user-icon.png"></li><span>Simon Murray</span></a><br>
+                        <a href="#"><li><img src="img/header-exit-icon.png"></li><span>Sign Out</span></a>
+              </ul>   
+          </nav>
+          
+      </div>
+    </div>
+  </div>
+
+                    
+                    </div>
+
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+        </div>
+      </header>
+                    
+                    <section class="main-content">
+                
+                <div class="orange-box">
+                        <img src="img/info-icon.png"  style="float:left; margin-right:20px;" class="hidden-xs visible-md visible-sm visible-lg">
+                        <span>Simon’s Account, a CURRENT account, balance has risen above EUR 2.58 cr. </span>
+                        <div class="orange-box-icons hidden-xs visible-sm visible-md visible-lg">
+                            <a role="button"><img src="img/settings-icon-blue.png"></a>
+                            <a role="button"><img src="img/close-icon.png"></a>
+                        </div>
+                        
+                        <div class="visible-xs hidden-sm hidden-md hidden-lg">
+                        <div class="caret" style="color:#ffffff; margin:10px auto; display:block;"></div>
+                        </div>
+                        
+                        
+                        <div class="clearfix"></div>
+                    </div>
+                    
+                    <div class="accounts-box">
+                        <span class="accounts-box-head">Accounts</span>
+                        <p style="text-align:right; color:#f5d77c; font-size:12px;margin:0;text-align:right; float:right;">Net Position<br>
+                        <span style="font-size:28px; color:#ffffff; text-align:right; float:right;">EUR 11,161.14 cr</span>
+                        </p>
+                        
+                        
+                    
+                        <div class="clearfix"></div>
+                    </div>
+                    
+                    
+                        <div class="row">
+                            <div class="col-md-6">
+                                
+                                
+                                <div class="table-haeding">
+                                    <span>Current</span>
+                                    <span style="float:right">EUR 4,093.81 cr</span>
+                                </div>
+                                
+                                <div class="table-data">
+                                    
+                                    
+                                    <div class="drop-down"><div class="caret caret-centered"></div></div>
+                                    <div class="td">
+                                            <span style="color:#11559a;float:left;"><img src="img/iphone-icon.png"> &nbsp; Simon's Account</span>
+                                            <span style="color:#11559a;float:right;">Balance&#40;EUR&#41;</span>
+                                        
+                                        <div class="clearfix"></div>
+                                        
+                                            <span style="color:#ffffff;float:left;margin:10px 0;">*********1111</span>
+                                            <span style="color:#ffffff;float:right;margin:10px 0;">EUR 4,093.81 cr</span>
+                                        
+                                        <div class="clearfix"></div>
+                                    </div>
+                                    
+                                    <div class="clearfix"></div>
+                                    
+                                    
+                                </div>
+                                
+                                <div class="table-haeding">
+                                    <span>Mortgage</span>
+                                    <span style="float:right">EUR 4,036.89 cr</span>
+                                </div>
+                                
+                                <div class="table-data">
+                                    
+                                    
+                                    <div class="drop-down"><div class="caret caret-centered"></div></div>
+                                    <div class="td">
+                                            <span style="color:#11559a;float:left;"> Loan Account</span>
+                                            <span style="color:#11559a;float:right;">Balance&#40;EUR&#41;</span>
+                                        
+                                        <div class="clearfix"></div>
+                                        
+                                            <span style="color:#ffffff;float:left;margin:10px 0;">*********6921</span>
+                                            <span style="color:#ffffff;float:right;margin:10px 0;">EUR 4,036.89 cr</span>
+                                        
+                                        <div class="clearfix"></div>
+                                    </div>
+                                    
+                                    <div class="clearfix"></div>
+                                    
+                                    
+                                </div>
+                                
+                                
+                        </div>
+                            
+                            
+                        <div class="col-md-6">
+
+                            <div style="margin-bottom:30px">
+
+                            <div class="table-haeding">
+                                                <span>Other</span>
+                                                <span style="float:right">EUR 4,093.81 cr</span>
+                            </div>
+
+                                <div class="table-data-2">
+                                    
+                                    
+                                    <div class="drop-down-2"><div class="caret caret-centered-2"></div></div>
+                                    <div class="td-2">
+                                            <span style="color:#11559a;float:left;"> Simon's Account</span>
+                                            <span style="color:#11559a;float:right;">Balance&#40;EUR&#41;</span>
+                                        
+                                        <div class="clearfix"></div>
+                                        
+                                            <span style="color:#ffffff;float:left;margin:10px 0;">*********1111</span>
+                                            <span style="color:#ffffff;float:right;margin:10px 0;">EUR 4,093.81 cr</span>
+                                        
+                                        <div class="clearfix"></div>
+                                    </div>
+                                    
+                                    <div class="clearfix"></div>
+                                    
+                                    
+                                </div>
+                
+                                <div class="table-data-2">
+                                    
+                                    
+                                    <div class="drop-down-2"><div class="caret caret-centered-2"></div></div>
+                                    <div class="td-2">
+                                            <span style="color:#11559a;float:left;"> Simon's Account</span>
+                                            <span style="color:#11559a;float:right;">Balance&#40;EUR&#41;</span>
+                                        
+                                        <div class="clearfix"></div>
+                                        
+                                            <span style="color:#ffffff;float:left;margin:10px 0;">*********1111</span>
+                                            <span style="color:#ffffff;float:right;margin:10px 0;">EUR 4,093.81 cr</span>
+                                        
+                                        <div class="clearfix"></div>
+                                    </div>
+                                    
+                                    <div class="clearfix"></div>
+                                    
+                                    
+                                </div>
+                
+                                <div class="table-data-2">
+                                    
+                                    
+                                    <div class="drop-down-2"><div class="caret caret-centered-2"></div></div>
+                                    <div class="td-2">
+                                            <span style="color:#11559a;float:left;"> Simon's Account</span>
+                                            <span style="color:#11559a;float:right;">Balance&#40;EUR&#41;</span>
+                                        
+                                        <div class="clearfix"></div>
+                                        
+                                            <span style="color:#ffffff;float:left;margin:10px 0;">*********1111</span>
+                                            <span style="color:#ffffff;float:right;margin:10px 0;">EUR 4,093.81 cr</span>
+                                        
+                                        <div class="clearfix"></div>
+                                    </div>
+                                    
+                                    <div class="clearfix"></div>
+                                    
+                                    
+                                </div>
+                            
+                                </div>
+                            </div>   
+                    </div>
+                    
+                    
+                    <div class="row">
+                    
+                        <div class="col-md-4">
+                            <div class="bottom-box-head">
+                                <span>Quick Pay</span>
+                                <button type="button" class="edit-btn"><img src="img/pencil-icon.png"></button>
+                                <div class="clearfix"></div>
+                            </div>
+                            
+                            <div class="bottom-box-content">
+                                <img src="img/user-icon-qck-pay.png">
+                                
+                                <div style="float:right; margin-top:15px;">
+                                <span class="qck-pay-price">145.00</span>
+                                <img src="img/next-icon.png" style="margin-top:-12px;">
+                                </div>
+                                <div class="clearfix"></div>
+                                <span class="qck-pay-user-name">Alibek</span>
+                            </div>
+                        </div>
+                        
+                        <div class="col-md-4">
+                            <div class="bottom-img-section">
+                                <img src="img/bottom-img.jpg">
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                        <div class="bottom-box-head">
+                                <span>Foreign Exchange Rates</span>
+                                
+                                <div class="clearfix"></div>
+                            </div>
+                            
+                            <div class="foreign-ex-content">
+                            <table class="forex-table">
+                                <tr>
+                                    <th></th>
+                                    <th></th>
+                                    <th>Buy</th>
+                                    <th>Sell</th>
+                                </tr>
+                                
+                                <tr>
+                                    <td><img src="img/flag-eur.png"></td>
+                                    <td>EUR</td>
+                                    <td>1.00000</td>
+                                    <td>2.00000</td>
+                                </tr>
+                                
+                                <tr>
+                                    <td><img src="img/flag-usd.png"></td>
+                                    <td>USD</td>
+                                    <td>2.00000</td>
+                                    <td>2.00000</td>
+                                </tr>
+                                
+                                <tr>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td style=" font-size:12px; text-align:right;"><a style="color:#f15714;">View All</a></td>
+                                </tr>
+                            
+                                
+                            </table>
+                            </div>
+                        </div>
+
+
+                        </div>
+                </section>
+        
+      
+
+
+
+        <!-- jQuery CDN -->
+         <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+         <!-- Bootstrap Js CDN -->
+         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+         <!-- jQuery Nicescroll CDN -->
+         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.nicescroll/3.6.8-fix/jquery.nicescroll.min.js"></script>
+
+         <script type="text/javascript">
+             $(document).ready(function () {
+                 $("#sidebar").niceScroll({
+                     cursorcolor: '#53619d',
+                     cursorwidth: 4,
+                     cursorborder: 'none'
+                 });
+
+                 $('#sidebarCollapse').on('click', function () {
+                     $('#sidebar, #content').toggleClass('active');
+                     $('.collapse.in').toggleClass('in');
+                     $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+                 });
+             });
+         </script>
+    </body>
+</html>

@@ -1,0 +1,7 @@
+body{
+    background: url(../img/background.jpg);
+    background-size: cover;
+    min-height: 100%;
+    position: static;
+    overflow-x: hidden;
+}
